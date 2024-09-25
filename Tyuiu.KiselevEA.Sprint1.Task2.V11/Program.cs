@@ -29,16 +29,16 @@ namespace Tyuiu.KiselevEA.Sprint1.Task2.V11
             Console.WriteLine("Ввведите значение H:");
             h = Convert.ToInt32(Console.ReadLine());
 
-            int m;
+            int c;
 
             Console.WriteLine("Ввведите значение M:");
-            m = Convert.ToInt32(Console.ReadLine());
+            c = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("С начала суток прошло: " + ds.ConvertHoursMinutesToSeconds(h,m));
+            Console.WriteLine("С начала суток прошло: " + ds.ConvertHoursMinutesToSeconds(h, c));
 
             Console.ReadLine();
         }

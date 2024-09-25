@@ -5,7 +5,7 @@ namespace Tyuiu.KiselevEA.Sprint1.Task2.V11.Lib
     {
         public int ConvertHoursMinutesToSeconds(int value, int valueTwo)
         {
-            return value * 60 + valueTwo * 60;
+            return value * 60 * 60 +  valueTwo * 60;
         }
     }
 }

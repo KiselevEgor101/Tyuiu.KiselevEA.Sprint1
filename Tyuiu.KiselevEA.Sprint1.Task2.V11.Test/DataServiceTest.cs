@@ -1,3 +1,4 @@
+using System.Runtime.Intrinsics.X86;
 using Tyuiu.KiselevEA.Sprint1.Task2.V11.Lib;
 
 namespace Tyuiu.KiselevEA.Sprint1.Task2.V11.Test
@@ -9,11 +10,10 @@ namespace Tyuiu.KiselevEA.Sprint1.Task2.V11.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            int h = 12;
-            int m = 10;
-            var res = ds.ConvertHoursMinutesToSeconds(h, m);
-            Assert.AreEqual(1320, res);
-            Assert.AreEqual(1320, res);
+            int h = 6;
+            int c = 3;
+            var res = ds.ConvertHoursMinutesToSeconds(h, c);
+            Assert.AreEqual(21780, res);
         }
     }
 }
