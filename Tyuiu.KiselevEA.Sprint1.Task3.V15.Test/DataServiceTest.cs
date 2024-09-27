@@ -10,10 +10,10 @@ namespace Tyuiu.KiselevEA.Sprint1.Task3.V15.Test
             DataService ds = new DataService();
             double v1 = 3;
             double v2 = 2;
-            double S = 6;
-            double T = 30;
+            double S = 25;
+            double T = 5;
             var res = ds.DistanceOverTime(v1, v2, S, T);
-            Assert.AreEqual(T, res);
+            Assert.AreEqual(S, res);
         }
     }
 }

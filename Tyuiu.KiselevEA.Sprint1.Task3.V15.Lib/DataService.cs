@@ -5,7 +5,7 @@ namespace Tyuiu.KiselevEA.Sprint1.Task3.V15.Lib
     {
         public double DistanceOverTime(double v1, double v2, double S, double T)
         {
-            return v1 * S + v2 * S;
+            return (v1+v2)*T;
         }
     }
 }
