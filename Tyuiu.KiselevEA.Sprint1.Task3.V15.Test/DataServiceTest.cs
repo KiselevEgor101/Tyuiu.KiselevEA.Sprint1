@@ -8,9 +8,9 @@ namespace Tyuiu.KiselevEA.Sprint1.Task3.V15.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            double v1 = 3;
+            double v1 = 1;
             double v2 = 2;
-            double S = 25;
+            double S = 18;
             double T = 5;
             var res = ds.DistanceOverTime(v1, v2, S, T);
             Assert.AreEqual(S, res);

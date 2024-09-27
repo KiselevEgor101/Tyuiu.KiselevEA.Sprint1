@@ -24,10 +24,10 @@ namespace Tyuiu.KiselevEA.Sprint1.Task3.V15
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            double v1 = 3;
-            double v2 = 2;
-            double S = 6;
-            double T = 30;
+            double v1 = 1;
+            double v2 = 5;
+            double S = 3;
+            double T = 2;
 
             Console.WriteLine("Скорость первого автомобиля = " + v1);
             Console.WriteLine("Скорость Второго автомобиля = " + v2);
