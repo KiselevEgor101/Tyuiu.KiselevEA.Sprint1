@@ -24,16 +24,17 @@ namespace Tyuiu.KiselevEA.Sprint1.Task5.V7
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
+            int h;
 
-            Console.WriteLine("Введите значение F:");
-            f = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Введите значение H:");
+            h = Convert.ToInt32(Console.ReadLine());
 
            
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            int res = Convert.ToInt32(ds.AngleToHoursMinutes(f));
+            int res = Convert.ToInt32(ds.AngleToHoursMinutes(h));
 
             Console.WriteLine(res);
 

@@ -8,12 +8,12 @@ namespace Tyuiu.KiselevEA.Sprint1.Task5.V7.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            double f = 5;
-            double res = ds.AngleToHoursMinutes(f);
+            double h = 45;
+            double res = ds.AngleToHoursMinutes(h);
 
             int result = Convert.ToInt32(res);
 
-            int wait = 0;
+            int wait = 1;
             Assert.AreEqual(wait, result);
         }
     }
